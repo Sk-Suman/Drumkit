@@ -1,0 +1,59 @@
+body{
+    background-color:rgb(227, 231, 0);
+}
+#title{
+    font-family:'Dosis', sans-serif;
+    font-size: 70px;
+    text-align: center;
+    padding: 20px;
+    text-shadow: 2px red;
+    color: rgb(97, 64, 216);
+}
+.set{
+    display: flex;
+    height: 250px;
+    width: 100%;
+    padding: 69px 2px;
+    justify-items: center;
+    justify-content: space-between;
+    color: black;
+}
+
+.drum{
+    display: block;
+    block-size: 90px;
+    font-size: 62px;
+    font-weight: 60px;
+    align-items: center;
+    padding: 90px 70px;
+    font-style: italic;
+    color: rgb(255, 47, 32);
+ 
+}
+#u{
+ text-align: center;
+    font-size: 28px;
+}
+button.w.drum {
+
+  background-image:url("image/crash.png");}
+  button.s.drum {
+    
+    background-image:url("image/kick.png");}
+    button.a.drum {
+    
+        background-image:url("image/snare.png");}
+        button.d.drum {
+    
+            background-image:url("image/tom1.png");}
+            button.j.drum {
+    
+                background-image:url("image/tom2.png");}
+            button.k.drum {
+    
+                background-image:url("image/tom3.png");}
+
+                button.l.drum {
+    
+                    background-image:url("image/tom4.png");}
+
